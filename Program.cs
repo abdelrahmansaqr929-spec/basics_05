@@ -33,7 +33,11 @@
             Genure _genre = Genure.Fiction;
             Console.WriteLine(_genre.ToString());
             #endregion
-
+            #region answer_08
+            string genreText = "Science";
+            Enum.Parse(typeof(Genure), genreText);
+            Console.WriteLine(genreText);
+            #endregion
         }
     }
 }
