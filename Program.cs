@@ -11,6 +11,10 @@
             #region answer_02
             Console.WriteLine(book.copiesInStock); // This line is valid because copiesInStock is internal and accessible within the same assembly
             #endregion
+            #region answer_03
+            book.Title = "C# basics";
+            Console.WriteLine(book.Title);
+            #endregion
 
         }
     }

@@ -8,5 +8,6 @@ namespace basics_05
     {
         private string Pasword = "secret";
         internal int copiesInStock = 5;
+        public string Title { get; set; }
     }
 }
