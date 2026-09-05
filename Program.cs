@@ -38,6 +38,16 @@
             Enum.Parse(typeof(Genure), genreText);
             Console.WriteLine(genreText);
             #endregion
+            #region answer_09
+            string _genreText = "Mystery";
+            Genure parsedGenre;
+            bool isParsed = Enum.TryParse(_genreText, out parsedGenre);
+            if (isParsed)
+            {
+                Console.WriteLine(parsedGenre);
+            }
+            else Console.WriteLine("Unknown genre");
+            #endregion
         }
     }
 }
