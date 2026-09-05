@@ -19,6 +19,11 @@
             book.Genre = Genure.Science;
             Console.WriteLine(book.Genre);
             #endregion
+            #region answer_05
+            Console.WriteLine((int)Genure.Fiction);
+            Console.WriteLine((int)Genure.NonFiction);
+            Console.WriteLine((int)Genure.Science);
+            #endregion
         }
     }
 }
