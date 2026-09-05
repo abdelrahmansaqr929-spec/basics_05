@@ -24,6 +24,11 @@
             Console.WriteLine((int)Genure.NonFiction);
             Console.WriteLine((int)Genure.Science);
             #endregion
+            #region answer_06
+            int genreNumber = 1;
+            Genure genre = (Genure)genreNumber;
+            Console.WriteLine(genre);
+            #endregion
         }
     }
 }
