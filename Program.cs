@@ -15,7 +15,10 @@
             book.Title = "C# basics";
             Console.WriteLine(book.Title);
             #endregion
-
+            #region answer_04
+            book.Genre = Genure.Science;
+            Console.WriteLine(book.Genre);
+            #endregion
         }
     }
 }
