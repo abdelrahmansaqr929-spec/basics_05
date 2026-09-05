@@ -29,6 +29,11 @@
             Genure genre = (Genure)genreNumber;
             Console.WriteLine(genre);
             #endregion
+            #region answer_07
+            Genure _genre = Genure.Fiction;
+            Console.WriteLine(_genre.ToString());
+            #endregion
+
         }
     }
 }
