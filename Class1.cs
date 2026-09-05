@@ -7,5 +7,6 @@ namespace basics_05
     internal class Book
     {
         private string Pasword = "secret";
+        internal int copiesInStock = 5;
     }
 }
